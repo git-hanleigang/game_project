@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hezi
+  rotate: false
+  xy: 594, 212
+  size: 125, 89
+  orig: 125, 89
+  offset: 0, 0
+  index: -1
+jinbi1
+  rotate: false
+  xy: 884, 256
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+jinbi10
+  rotate: false
+  xy: 153, 5
+  size: 77, 38
+  orig: 77, 38
+  offset: 0, 0
+  index: -1
+jinbi11
+  rotate: true
+  xy: 721, 210
+  size: 91, 49
+  orig: 91, 49
+  offset: 0, 0
+  index: -1
+jinbi12
+  rotate: false
+  xy: 886, 311
+  size: 90, 48
+  orig: 90, 48
+  offset: 0, 0
+  index: -1
+jinbi2
+  rotate: false
+  xy: 594, 303
+  size: 175, 56
+  orig: 175, 56
+  offset: 0, 0
+  index: -1
+jinbi3
+  rotate: true
+  xy: 849, 249
+  size: 65, 33
+  orig: 65, 33
+  offset: 0, 0
+  index: -1
+jinbi4
+  rotate: false
+  xy: 153, 45
+  size: 155, 60
+  orig: 155, 60
+  offset: 0, 0
+  index: -1
+jinbi5
+  rotate: false
+  xy: 772, 199
+  size: 55, 43
+  orig: 55, 43
+  offset: 0, 0
+  index: -1
+jinbi6
+  rotate: false
+  xy: 232, 2
+  size: 59, 41
+  orig: 59, 41
+  offset: 0, 0
+  index: -1
+jinbi7
+  rotate: false
+  xy: 540, 33
+  size: 56, 72
+  orig: 57, 72
+  offset: 1, 0
+  index: -1
+jinbi8
+  rotate: true
+  xy: 978, 307
+  size: 52, 44
+  orig: 52, 44
+  offset: 0, 0
+  index: -1
+jinbi9
+  rotate: false
+  xy: 771, 316
+  size: 113, 43
+  orig: 113, 43
+  offset: 0, 0
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 107
+  size: 590, 398
+  orig: 600, 450
+  offset: 7, 47
+  index: -1
+lizi2
+  rotate: false
+  xy: 594, 361
+  size: 419, 144
+  orig: 419, 147
+  offset: 0, 3
+  index: -1
+xing
+  rotate: true
+  xy: 455, 23
+  size: 82, 83
+  orig: 84, 84
+  offset: 1, 1
+  index: -1
+zikuai1
+  rotate: false
+  xy: 310, 36
+  size: 143, 69
+  orig: 143, 69
+  offset: 0, 0
+  index: -1
+zikuai2
+  rotate: false
+  xy: 2, 8
+  size: 149, 97
+  orig: 151, 97
+  offset: 2, 0
+  index: -1
+zikuai3
+  rotate: false
+  xy: 594, 114
+  size: 102, 96
+  orig: 102, 96
+  offset: 0, 0
+  index: -1
+zikuai5
+  rotate: false
+  xy: 772, 244
+  size: 75, 70
+  orig: 75, 70
+  offset: 0, 0
+  index: -1
+zikuai6
+  rotate: false
+  xy: 598, 60
+  size: 62, 52
+  orig: 62, 52
+  offset: 0, 0
+  index: -1

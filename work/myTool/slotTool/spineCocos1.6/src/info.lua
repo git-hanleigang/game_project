@@ -1,0 +1,1 @@
+tblAnimName = {"light-150", "lizi-150", "xing-150", }
