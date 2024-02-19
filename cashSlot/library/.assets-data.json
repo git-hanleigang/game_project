@@ -1,0 +1,524 @@
+{
+  "588a5084-5760-4810-8dec-6826efb90a66": {
+    "url": "db://assets/ui",
+    "value": {}
+  },
+  "c87f3bb2-0d83-4149-955b-b75531b7c588": {
+    "url": "db://assets/ui/bg.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c87f3bb2-0d83-4149-955b-b75531b7c588@6c48a": {
+    "url": "db://assets/ui/bg.png@6c48a",
+    "value": {
+      "depends": [
+        "c87f3bb2-0d83-4149-955b-b75531b7c588"
+      ]
+    }
+  },
+  "c87f3bb2-0d83-4149-955b-b75531b7c588@f9941": {
+    "url": "db://assets/ui/bg.png@f9941",
+    "value": {
+      "depends": [
+        "c87f3bb2-0d83-4149-955b-b75531b7c588@6c48a"
+      ]
+    }
+  },
+  "8bd19106-603b-40d0-a581-2893cced0f34": {
+    "url": "db://assets/scripts",
+    "value": {}
+  },
+  "1ac46271-02bd-4190-b0a3-e86a28becdeb": {
+    "url": "db://assets/main_horizontal.scene",
+    "value": {
+      "depends": [
+        "1ac46271-02bd-4190-b0a3-e86a28becdeb",
+        "c87f3bb2-0d83-4149-955b-b75531b7c588@f9941",
+        "b5a94feb-b706-4aa1-bde6-4ac29a36e7ed@f9941",
+        "cd5b3b52-7fae-437c-b5a0-42a82861598b@f9941",
+        "e2daaf79-ca63-4d36-8df5-3da48f393595@f9941",
+        "5e8c4c5f-6061-4a09-a040-aaa556d9d939@f9941",
+        "ee558005-2433-4ea5-bcc6-b345ef2d42be@f9941",
+        "d9fb264c-613f-4272-a7cb-101ef8d96aa7@f9941"
+      ],
+      "dependScripts": [
+        "858ab502-8530-4d1d-a3fa-93d06f9bc76d",
+        "d1709f17-bb95-498d-bb06-6459d93d8d25"
+      ]
+    }
+  },
+  "cbfed5d7-72ab-4327-853d-c94659f6d11c": {
+    "url": "db://assets/bg.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "cbfed5d7-72ab-4327-853d-c94659f6d11c@6c48a": {
+    "url": "db://assets/bg.png@6c48a",
+    "value": {
+      "depends": [
+        "cbfed5d7-72ab-4327-853d-c94659f6d11c"
+      ]
+    }
+  },
+  "cbfed5d7-72ab-4327-853d-c94659f6d11c@f9941": {
+    "url": "db://assets/bg.png@f9941",
+    "value": {
+      "depends": [
+        "cbfed5d7-72ab-4327-853d-c94659f6d11c@6c48a"
+      ]
+    }
+  },
+  "4e1374e7-f31c-4323-9282-d3d8b2dbc415": {
+    "url": "db://assets/main_vertical.scene",
+    "value": {
+      "depends": [
+        "4e1374e7-f31c-4323-9282-d3d8b2dbc415"
+      ],
+      "dependScripts": []
+    }
+  },
+  "b5a94feb-b706-4aa1-bde6-4ac29a36e7ed": {
+    "url": "db://assets/ui/club_spinA1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "cd5b3b52-7fae-437c-b5a0-42a82861598b": {
+    "url": "db://assets/ui/club_spinA2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e2daaf79-ca63-4d36-8df5-3da48f393595": {
+    "url": "db://assets/ui/club_spinA3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5e8c4c5f-6061-4a09-a040-aaa556d9d939": {
+    "url": "db://assets/ui/club_spinB1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ee558005-2433-4ea5-bcc6-b345ef2d42be": {
+    "url": "db://assets/ui/club_spinB2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "cd5b3b52-7fae-437c-b5a0-42a82861598b@6c48a": {
+    "url": "db://assets/ui/club_spinA2.png@6c48a",
+    "value": {
+      "depends": [
+        "cd5b3b52-7fae-437c-b5a0-42a82861598b"
+      ]
+    }
+  },
+  "ee558005-2433-4ea5-bcc6-b345ef2d42be@6c48a": {
+    "url": "db://assets/ui/club_spinB2.png@6c48a",
+    "value": {
+      "depends": [
+        "ee558005-2433-4ea5-bcc6-b345ef2d42be"
+      ]
+    }
+  },
+  "cd5b3b52-7fae-437c-b5a0-42a82861598b@f9941": {
+    "url": "db://assets/ui/club_spinA2.png@f9941",
+    "value": {
+      "depends": [
+        "cd5b3b52-7fae-437c-b5a0-42a82861598b@6c48a"
+      ]
+    }
+  },
+  "d9fb264c-613f-4272-a7cb-101ef8d96aa7": {
+    "url": "db://assets/ui/club_spinB3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ee558005-2433-4ea5-bcc6-b345ef2d42be@f9941": {
+    "url": "db://assets/ui/club_spinB2.png@f9941",
+    "value": {
+      "depends": [
+        "ee558005-2433-4ea5-bcc6-b345ef2d42be@6c48a"
+      ]
+    }
+  },
+  "e2daaf79-ca63-4d36-8df5-3da48f393595@6c48a": {
+    "url": "db://assets/ui/club_spinA3.png@6c48a",
+    "value": {
+      "depends": [
+        "e2daaf79-ca63-4d36-8df5-3da48f393595"
+      ]
+    }
+  },
+  "b5a94feb-b706-4aa1-bde6-4ac29a36e7ed@6c48a": {
+    "url": "db://assets/ui/club_spinA1.png@6c48a",
+    "value": {
+      "depends": [
+        "b5a94feb-b706-4aa1-bde6-4ac29a36e7ed"
+      ]
+    }
+  },
+  "5e8c4c5f-6061-4a09-a040-aaa556d9d939@6c48a": {
+    "url": "db://assets/ui/club_spinB1.png@6c48a",
+    "value": {
+      "depends": [
+        "5e8c4c5f-6061-4a09-a040-aaa556d9d939"
+      ]
+    }
+  },
+  "e2daaf79-ca63-4d36-8df5-3da48f393595@f9941": {
+    "url": "db://assets/ui/club_spinA3.png@f9941",
+    "value": {
+      "depends": [
+        "e2daaf79-ca63-4d36-8df5-3da48f393595@6c48a"
+      ]
+    }
+  },
+  "5e8c4c5f-6061-4a09-a040-aaa556d9d939@f9941": {
+    "url": "db://assets/ui/club_spinB1.png@f9941",
+    "value": {
+      "depends": [
+        "5e8c4c5f-6061-4a09-a040-aaa556d9d939@6c48a"
+      ]
+    }
+  },
+  "b5a94feb-b706-4aa1-bde6-4ac29a36e7ed@f9941": {
+    "url": "db://assets/ui/club_spinA1.png@f9941",
+    "value": {
+      "depends": [
+        "b5a94feb-b706-4aa1-bde6-4ac29a36e7ed@6c48a"
+      ]
+    }
+  },
+  "d9fb264c-613f-4272-a7cb-101ef8d96aa7@6c48a": {
+    "url": "db://assets/ui/club_spinB3.png@6c48a",
+    "value": {
+      "depends": [
+        "d9fb264c-613f-4272-a7cb-101ef8d96aa7"
+      ]
+    }
+  },
+  "d9fb264c-613f-4272-a7cb-101ef8d96aa7@f9941": {
+    "url": "db://assets/ui/club_spinB3.png@f9941",
+    "value": {
+      "depends": [
+        "d9fb264c-613f-4272-a7cb-101ef8d96aa7@6c48a"
+      ]
+    }
+  },
+  "d1709f17-bb95-498d-bb06-6459d93d8d25": {
+    "url": "db://assets/scripts/machine.ts",
+    "value": {}
+  },
+  "0352e5c3-994a-462c-9ea2-be70aca349a9": {
+    "url": "db://assets/scripts/Singleton.ts",
+    "value": {}
+  },
+  "858ab502-8530-4d1d-a3fa-93d06f9bc76d": {
+    "url": "db://assets/scripts/reelRoll.ts",
+    "value": {}
+  },
+  "83f4843e-2a0e-44f4-a56a-250adb0b2043": {
+    "url": "db://assets/scripts/symbolNode.ts",
+    "value": {}
+  },
+  "62a248fa-279f-469b-a95d-0670c1b03784": {
+    "url": "db://assets/resources",
+    "value": {}
+  },
+  "b20f5890-2103-4626-a7cd-e0565e21b338": {
+    "url": "db://assets/resources/symbolRes",
+    "value": {}
+  },
+  "d8f6725e-9a2e-42a0-9839-365f99bb1b64": {
+    "url": "db://assets/resources/symbolRes/0.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5340a5ff-d8b8-44d1-80b8-8a28a11ec06e": {
+    "url": "db://assets/resources/symbolRes/1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "2bfbf4eb-bf55-437d-955e-f9424a8aa227": {
+    "url": "db://assets/resources/symbolRes/2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "934ba830-20e4-4900-84ea-77762dfd7e7b": {
+    "url": "db://assets/resources/symbolRes/3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1c728b2c-ff6e-48ba-ac75-848bab698231": {
+    "url": "db://assets/resources/symbolRes/4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "934ba830-20e4-4900-84ea-77762dfd7e7b@6c48a": {
+    "url": "db://assets/resources/symbolRes/3.png@6c48a",
+    "value": {
+      "depends": [
+        "934ba830-20e4-4900-84ea-77762dfd7e7b"
+      ]
+    }
+  },
+  "2bfbf4eb-bf55-437d-955e-f9424a8aa227@6c48a": {
+    "url": "db://assets/resources/symbolRes/2.png@6c48a",
+    "value": {
+      "depends": [
+        "2bfbf4eb-bf55-437d-955e-f9424a8aa227"
+      ]
+    }
+  },
+  "1c728b2c-ff6e-48ba-ac75-848bab698231@6c48a": {
+    "url": "db://assets/resources/symbolRes/4.png@6c48a",
+    "value": {
+      "depends": [
+        "1c728b2c-ff6e-48ba-ac75-848bab698231"
+      ]
+    }
+  },
+  "5340a5ff-d8b8-44d1-80b8-8a28a11ec06e@6c48a": {
+    "url": "db://assets/resources/symbolRes/1.png@6c48a",
+    "value": {
+      "depends": [
+        "5340a5ff-d8b8-44d1-80b8-8a28a11ec06e"
+      ]
+    }
+  },
+  "934ba830-20e4-4900-84ea-77762dfd7e7b@f9941": {
+    "url": "db://assets/resources/symbolRes/3.png@f9941",
+    "value": {
+      "depends": [
+        "934ba830-20e4-4900-84ea-77762dfd7e7b@6c48a"
+      ]
+    }
+  },
+  "e95af55c-0a5c-4d78-b391-20ef96867ff1": {
+    "url": "db://assets/resources/symbolRes/5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "2bfbf4eb-bf55-437d-955e-f9424a8aa227@f9941": {
+    "url": "db://assets/resources/symbolRes/2.png@f9941",
+    "value": {
+      "depends": [
+        "2bfbf4eb-bf55-437d-955e-f9424a8aa227@6c48a"
+      ]
+    }
+  },
+  "279caa03-8e6f-469b-be65-8260790a3a66": {
+    "url": "db://assets/resources/symbolRes/6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d8f6725e-9a2e-42a0-9839-365f99bb1b64@6c48a": {
+    "url": "db://assets/resources/symbolRes/0.png@6c48a",
+    "value": {
+      "depends": [
+        "d8f6725e-9a2e-42a0-9839-365f99bb1b64"
+      ]
+    }
+  },
+  "1c728b2c-ff6e-48ba-ac75-848bab698231@f9941": {
+    "url": "db://assets/resources/symbolRes/4.png@f9941",
+    "value": {
+      "depends": [
+        "1c728b2c-ff6e-48ba-ac75-848bab698231@6c48a"
+      ]
+    }
+  },
+  "5b168ce7-c393-44e9-ac65-a0cd288387bc": {
+    "url": "db://assets/resources/symbolRes/7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5340a5ff-d8b8-44d1-80b8-8a28a11ec06e@f9941": {
+    "url": "db://assets/resources/symbolRes/1.png@f9941",
+    "value": {
+      "depends": [
+        "5340a5ff-d8b8-44d1-80b8-8a28a11ec06e@6c48a"
+      ]
+    }
+  },
+  "cc4055c6-bb23-4476-8d74-5d3fa8f612fb": {
+    "url": "db://assets/resources/symbolRes/8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d8f6725e-9a2e-42a0-9839-365f99bb1b64@f9941": {
+    "url": "db://assets/resources/symbolRes/0.png@f9941",
+    "value": {
+      "depends": [
+        "d8f6725e-9a2e-42a0-9839-365f99bb1b64@6c48a"
+      ]
+    }
+  },
+  "dd755036-0562-4136-8631-801480c640b4": {
+    "url": "db://assets/resources/symbolRes/9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e95af55c-0a5c-4d78-b391-20ef96867ff1@6c48a": {
+    "url": "db://assets/resources/symbolRes/5.png@6c48a",
+    "value": {
+      "depends": [
+        "e95af55c-0a5c-4d78-b391-20ef96867ff1"
+      ]
+    }
+  },
+  "279caa03-8e6f-469b-be65-8260790a3a66@6c48a": {
+    "url": "db://assets/resources/symbolRes/6.png@6c48a",
+    "value": {
+      "depends": [
+        "279caa03-8e6f-469b-be65-8260790a3a66"
+      ]
+    }
+  },
+  "5b168ce7-c393-44e9-ac65-a0cd288387bc@6c48a": {
+    "url": "db://assets/resources/symbolRes/7.png@6c48a",
+    "value": {
+      "depends": [
+        "5b168ce7-c393-44e9-ac65-a0cd288387bc"
+      ]
+    }
+  },
+  "cc4055c6-bb23-4476-8d74-5d3fa8f612fb@6c48a": {
+    "url": "db://assets/resources/symbolRes/8.png@6c48a",
+    "value": {
+      "depends": [
+        "cc4055c6-bb23-4476-8d74-5d3fa8f612fb"
+      ]
+    }
+  },
+  "e95af55c-0a5c-4d78-b391-20ef96867ff1@f9941": {
+    "url": "db://assets/resources/symbolRes/5.png@f9941",
+    "value": {
+      "depends": [
+        "e95af55c-0a5c-4d78-b391-20ef96867ff1@6c48a"
+      ]
+    }
+  },
+  "d5579245-940a-4454-aa3b-11bd12c00849": {
+    "url": "db://assets/resources/symbolRes/90.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "279caa03-8e6f-469b-be65-8260790a3a66@f9941": {
+    "url": "db://assets/resources/symbolRes/6.png@f9941",
+    "value": {
+      "depends": [
+        "279caa03-8e6f-469b-be65-8260790a3a66@6c48a"
+      ]
+    }
+  },
+  "0394b6c0-f558-4c28-ae2b-f004acfc20bd": {
+    "url": "db://assets/resources/symbolRes/92.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5b168ce7-c393-44e9-ac65-a0cd288387bc@f9941": {
+    "url": "db://assets/resources/symbolRes/7.png@f9941",
+    "value": {
+      "depends": [
+        "5b168ce7-c393-44e9-ac65-a0cd288387bc@6c48a"
+      ]
+    }
+  },
+  "b688604b-82a9-48f5-94ef-cc3f1dcb6357": {
+    "url": "db://assets/resources/symbolRes/94.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "cc4055c6-bb23-4476-8d74-5d3fa8f612fb@f9941": {
+    "url": "db://assets/resources/symbolRes/8.png@f9941",
+    "value": {
+      "depends": [
+        "cc4055c6-bb23-4476-8d74-5d3fa8f612fb@6c48a"
+      ]
+    }
+  },
+  "dd755036-0562-4136-8631-801480c640b4@6c48a": {
+    "url": "db://assets/resources/symbolRes/9.png@6c48a",
+    "value": {
+      "depends": [
+        "dd755036-0562-4136-8631-801480c640b4"
+      ]
+    }
+  },
+  "d5579245-940a-4454-aa3b-11bd12c00849@6c48a": {
+    "url": "db://assets/resources/symbolRes/90.png@6c48a",
+    "value": {
+      "depends": [
+        "d5579245-940a-4454-aa3b-11bd12c00849"
+      ]
+    }
+  },
+  "dd755036-0562-4136-8631-801480c640b4@f9941": {
+    "url": "db://assets/resources/symbolRes/9.png@f9941",
+    "value": {
+      "depends": [
+        "dd755036-0562-4136-8631-801480c640b4@6c48a"
+      ]
+    }
+  },
+  "b688604b-82a9-48f5-94ef-cc3f1dcb6357@6c48a": {
+    "url": "db://assets/resources/symbolRes/94.png@6c48a",
+    "value": {
+      "depends": [
+        "b688604b-82a9-48f5-94ef-cc3f1dcb6357"
+      ]
+    }
+  },
+  "0394b6c0-f558-4c28-ae2b-f004acfc20bd@6c48a": {
+    "url": "db://assets/resources/symbolRes/92.png@6c48a",
+    "value": {
+      "depends": [
+        "0394b6c0-f558-4c28-ae2b-f004acfc20bd"
+      ]
+    }
+  },
+  "d5579245-940a-4454-aa3b-11bd12c00849@f9941": {
+    "url": "db://assets/resources/symbolRes/90.png@f9941",
+    "value": {
+      "depends": [
+        "d5579245-940a-4454-aa3b-11bd12c00849@6c48a"
+      ]
+    }
+  },
+  "0394b6c0-f558-4c28-ae2b-f004acfc20bd@f9941": {
+    "url": "db://assets/resources/symbolRes/92.png@f9941",
+    "value": {
+      "depends": [
+        "0394b6c0-f558-4c28-ae2b-f004acfc20bd@6c48a"
+      ]
+    }
+  },
+  "b688604b-82a9-48f5-94ef-cc3f1dcb6357@f9941": {
+    "url": "db://assets/resources/symbolRes/94.png@f9941",
+    "value": {
+      "depends": [
+        "b688604b-82a9-48f5-94ef-cc3f1dcb6357@6c48a"
+      ]
+    }
+  }
+}

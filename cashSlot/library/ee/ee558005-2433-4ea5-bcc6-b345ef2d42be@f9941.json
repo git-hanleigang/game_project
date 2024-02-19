@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "club_spinB2",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 237,
+      "height": 104
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 237,
+      "height": 104
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -118.5,
+        -52,
+        0,
+        118.5,
+        -52,
+        0,
+        -118.5,
+        52,
+        0,
+        118.5,
+        52,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        104,
+        237,
+        104,
+        0,
+        0,
+        237,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -118.5,
+        "y": -52,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 118.5,
+        "y": 52,
+        "z": 0
+      }
+    },
+    "texture": "ee558005-2433-4ea5-bcc6-b345ef2d42be@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
