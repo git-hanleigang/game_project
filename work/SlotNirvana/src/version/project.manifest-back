@@ -1,0 +1,16 @@
+{
+    "packageUrl":"https://res2.topultragame.com/SlotLasvega/test/",
+    "remoteVersionUrl":"https://res2.topultragame.com/SlotLasvega/test/version.manifest",
+    "remoteManifestUrl":"https://res2.topultragame.com/SlotLasvega/test/project.manifest",
+    "version":"1.20190111.01",
+    "engineVersion":"Cocos2d-lua v3.3 Final",
+    "assets":{
+        "V333.json":{
+            "md5":"e6aed0272011da3039ccc1008040cbcb"
+        },
+        "V333.zip":{
+            "md5":"e6aed0272011da3039ccc1008040cbcb",
+            "compressed":true
+        }
+    }
+}

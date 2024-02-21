@@ -1,0 +1,123 @@
+local FlamingPompeiiPublicConfig = {}
+
+--base背景音乐
+FlamingPompeiiPublicConfig.music_FlamingPompeii_base = "FlamingPompeiiSounds/music_FlamingPompeii_base.mp3"
+--free背景音乐
+FlamingPompeiiPublicConfig.music_FlamingPompeii_free = "FlamingPompeiiSounds/music_FlamingPompeii_free.mp3"
+--reSpin背景音乐
+FlamingPompeiiPublicConfig.music_FlamingPompeii_reSpin = "FlamingPompeiiSounds/music_FlamingPompeii_reSpin.mp3"
+
+--CTS-卡通袋鼠-点击
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_commonClick = "FlamingPompeiiSounds/sound_FlamingPompeii_commonClick.mp3"
+
+-- CTS关卡-庞贝火山-进入关卡短乐+Let it burn bright like treasures!
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_enterLevel = "FlamingPompeiiSounds/sound_FlamingPompeii_enterLevel.mp3"
+
+-- CTS关卡-庞贝火山-《Reel Stop（快停）》
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_reelStop_quick = "FlamingPompeiiSounds/sound_FlamingPompeii_reelStop_quick.mp3"
+
+--CTS关卡-庞贝火山-BG中奖连线1
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_lineFrame_1 = "FlamingPompeiiSounds/sound_FlamingPompeii_lineFrame_1.mp3"
+--CTS关卡-庞贝火山-BG中奖连线2
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_lineFrame_2 = "FlamingPompeiiSounds/sound_FlamingPompeii_lineFrame_2.mp3"
+--CTS关卡-庞贝火山-BG中奖连线3
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_lineFrame_3 = "FlamingPompeiiSounds/sound_FlamingPompeii_lineFrame_3.mp3"
+--CTS关卡-庞贝火山-FG中奖连线1
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeLineFrame_1 = "FlamingPompeiiSounds/sound_FlamingPompeii_freeLineFrame_1.mp3"
+--CTS关卡-庞贝火山-FG中奖连线2
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeLineFrame_2 = "FlamingPompeiiSounds/sound_FlamingPompeii_freeLineFrame_2.mp3"
+--CTS关卡-庞贝火山-FG中奖连线3
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeLineFrame_3 = "FlamingPompeiiSounds/sound_FlamingPompeii_freeLineFrame_3.mp3"
+
+--CTS关卡-庞贝火山-触发玩法动画前（火山喷发）+Watch out! More fire balls!
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_randomSymbol_start = "FlamingPompeiiSounds/sound_FlamingPompeii_randomSymbol_start.mp3"
+--CTS关卡-庞贝火山-触发玩法动画（火石落下形成图标）
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_randomSymbol_down = "FlamingPompeiiSounds/sound_FlamingPompeii_randomSymbol_down.mp3"
+
+--CTS关卡-庞贝火山-scatter图标落地
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_scatter_buling = "FlamingPompeiiSounds/sound_FlamingPompeii_scatter_buling.mp3"
+--CTS关卡-庞贝火山-BG里scatter图标触发+Hot lava's coming!
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_scatterTrigger_1 = "FlamingPompeiiSounds/sound_FlamingPompeii_scatterTrigger_1.mp3"
+--CTS关卡-庞贝火山-FG里scatter图标触发
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_scatterTrigger_2 = "FlamingPompeiiSounds/sound_FlamingPompeii_scatterTrigger_2.mp3"
+--CTS关卡-庞贝火山-scatter图标触发金币翻转
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_scatter_open = "FlamingPompeiiSounds/sound_FlamingPompeii_scatter_open.mp3"
+--CTS关卡-庞贝火山-FG开始弹板弹出
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeStartView_start = "FlamingPompeiiSounds/sound_FlamingPompeii_freeStartView_start.mp3"
+--CTS关卡-庞贝火山-FG开始弹板收回
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeStartView_over = "FlamingPompeiiSounds/sound_FlamingPompeii_freeStartView_over.mp3"
+--CTS关卡-庞贝火山-BG进入FG过场动画
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeGuoChang = "FlamingPompeiiSounds/sound_FlamingPompeii_freeGuoChang.mp3"
+--CTS关卡-庞贝火山-底板刷火
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_lockBonusReelBg_start = "FlamingPompeiiSounds/sound_FlamingPompeii_lockBonusReelBg_start.mp3"
+--CTS关卡-庞贝火山-Bonus图标下移
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_lockBonus_moveDown = "FlamingPompeiiSounds/sound_FlamingPompeii_lockBonus_moveDown.mp3"
+--CTS关卡-庞贝火山-FG MORE 弹板弹出+收回
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeMoreView = "FlamingPompeiiSounds/sound_FlamingPompeii_freeMoreView.mp3"
+--CTS关卡-庞贝火山-fg次数增加
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeTimes_add = "FlamingPompeiiSounds/sound_FlamingPompeii_freeTimes_add.mp3"
+--CTS关卡-庞贝火山-FG结算弹板+CONGRATULATIONS!
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeOverView_start = "FlamingPompeiiSounds/sound_FlamingPompeii_freeOverView_start.mp3"
+--CTS关卡-庞贝火山-FG结算弹板收回
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_freeOverView_over = "FlamingPompeiiSounds/sound_FlamingPompeii_freeOverView_over.mp3"
+
+--CTS关卡-庞贝火山-Bonus图标落地
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_bonus_buling = "FlamingPompeiiSounds/sound_FlamingPompeii_bonus_buling.mp3"
+--CTS关卡-庞贝火山-Bonus图标触发+Fire balls_ Funny!
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_bonusTrigger = "FlamingPompeiiSounds/sound_FlamingPompeii_bonusTrigger.mp3"
+--CTS关卡-庞贝火山-进入RESPIN玩法过场动画
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_reSpinGuoChang = "FlamingPompeiiSounds/sound_FlamingPompeii_reSpinGuoChang.mp3"
+--CTS关卡-庞贝火山-火山喷发棋盘上砸火球
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffCell_start = "FlamingPompeiiSounds/sound_FlamingPompeii_buffCell_start.mp3"
+--CTS关卡-庞贝火山-Buff转盘出现
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffReel_start = "FlamingPompeiiSounds/sound_FlamingPompeii_buffReel_start.mp3"
+--CTS关卡-庞贝火山-BUFF区Bonus图标触发转盘+Lava is bonanza!
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_bonus_triggerBuffReel = "FlamingPompeiiSounds/sound_FlamingPompeii_bonus_triggerBuffReel.mp3"
+--CTS关卡-庞贝火山-Buff转盘转动
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffReel_run = "FlamingPompeiiSounds/sound_FlamingPompeii_buffReel_run.mp3"
+--CTS关卡-庞贝火山-Buff转盘选中
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffReel_stop = "FlamingPompeiiSounds/sound_FlamingPompeii_buffReel_stop.mp3"
+--CTS关卡-庞贝火山-Buff飞到bonus图标
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffReel_fly = "FlamingPompeiiSounds/sound_FlamingPompeii_buffReel_fly.mp3"
+--CTS关卡-庞贝火山-Buff飞到bonus图标后冒出金额
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffReel_flyOver = "FlamingPompeiiSounds/sound_FlamingPompeii_buffReel_flyOver.mp3"
+--CTS关卡-庞贝火山-棋盘上升1行
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffReel_upRow1 = "FlamingPompeiiSounds/sound_FlamingPompeii_buffReel_upRow1.mp3"
+--CTS关卡-庞贝火山-棋盘上升2行
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_buffReel_upRow2 = "FlamingPompeiiSounds/sound_FlamingPompeii_buffReel_upRow2.mp3"
+--CTS关卡-庞贝火山-RESPIN次数增加
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_reSpinTimes_add = "FlamingPompeiiSounds/sound_FlamingPompeii_reSpinTimes_add.mp3"
+--CTS关卡-庞贝火山-所有bonus图标放大
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_bonus_collectActionframe = "FlamingPompeiiSounds/sound_FlamingPompeii_bonus_collectActionframe.mp3"
+--CTS关卡-庞贝火山-bonus图标收集
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_bonus_collect = "FlamingPompeiiSounds/sound_FlamingPompeii_bonus_collect.mp3"
+--CTS关卡-庞贝火山-bonus图标收集到下方赢钱框反馈
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_bottomCollectFeedback = "FlamingPompeiiSounds/sound_FlamingPompeii_bottomCollectFeedback.mp3"
+--CTS关卡-庞贝火山-Respin结算弹板+CONGRATULATIONS!
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_reSpinOverView_start = "FlamingPompeiiSounds/sound_FlamingPompeii_reSpinOverView_start.mp3"
+--CTS关卡-庞贝火山-Respin结算弹板收回
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_reSpinOverView_over = "FlamingPompeiiSounds/sound_FlamingPompeii_reSpinOverView_over.mp3"
+--CTS关卡-庞贝火山-回到所有玩法过场动画
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_backGuoChang = "FlamingPompeiiSounds/sound_FlamingPompeii_backGuoChang.mp3"
+--CTS关卡-庞贝火山-特殊Bonus飞到上方中间位置
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_topBonusFly = "FlamingPompeiiSounds/sound_FlamingPompeii_topBonusFly.mp3"
+--CTS关卡-庞贝火山-特殊Bonus飞到上方中间位置反馈
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_topBonusFlyOver = "FlamingPompeiiSounds/sound_FlamingPompeii_topBonusFlyOver.mp3"
+
+
+
+--CTS关卡-庞贝火山-收集栏解锁动画
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_jackpotBar_unLock = "FlamingPompeiiSounds/sound_FlamingPompeii_jackpotBar_unLock.mp3"
+--CTS关卡-庞贝火山-JP弹板弹出
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_jackpotView_start = "FlamingPompeiiSounds/sound_FlamingPompeii_jackpotView_start.mp3"
+--CTS关卡-庞贝火山-JP数字增长
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_jackpotView_jumpCoins = "FlamingPompeiiSounds/sound_FlamingPompeii_jackpotView_jumpCoins.mp3"
+--CTS关卡-庞贝火山-JP数字增长结束音
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_jackpotView_jumpCoinsStop = "FlamingPompeiiSounds/sound_FlamingPompeii_jackpotView_jumpCoinsStop.mp3"
+--CTS关卡-庞贝火山-JP弹板收回
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_jackpotView_over = "FlamingPompeiiSounds/sound_FlamingPompeii_jackpotView_over.mp3"
+
+--CTS关卡-庞贝火山-大赢喷金币动画
+FlamingPompeiiPublicConfig.sound_FlamingPompeii_bigWin = "FlamingPompeiiSounds/sound_FlamingPompeii_bigWin.mp3"
+
+return FlamingPompeiiPublicConfig

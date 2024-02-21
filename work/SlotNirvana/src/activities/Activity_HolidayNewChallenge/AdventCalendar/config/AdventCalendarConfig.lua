@@ -1,0 +1,12 @@
+--[[
+    
+]]
+
+local AdventCalendarConfig = {}
+
+ViewEventType.ADVENT_CALENDAR_SIGN_IN = "ADVENT_CALENDAR_SIGN_IN"     -- 签到
+ViewEventType.ADVENT_CALENDAR_STORY_CLOSE = "ADVENT_CALENDAR_STORY_CLOSE"     -- 故事关闭
+ViewEventType.ADVENT_CALENDAR_REWARD_COLLECT_END = "ADVENT_CALENDAR_REWARD_COLLECT_END"     -- 奖励领取结束
+ViewEventType.ADVENT_CALENDAR_PROGRESS_COLLECT_END = "ADVENT_CALENDAR_PROGRESS_COLLECT_END" -- 进度领取结束
+
+return AdventCalendarConfig

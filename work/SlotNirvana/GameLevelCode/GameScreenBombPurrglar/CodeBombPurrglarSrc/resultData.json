@@ -1,0 +1,78 @@
+{
+    "data": {
+        "initMultipleReel" : [0,0,15,0],
+
+        "userMultipleList": [
+
+            {
+                "reels":[        
+					[121,121,121,121,121,121,121,121],
+					[123,123,123,123,123,123,123,123],
+					[97,97,97,97,123,123,123,123]
+				],
+				"selfData":{
+					"userMulit" : [
+						0,0,0,0,0,0,0,0
+					],
+                    "setMultipleReel" : [
+                        {"4":-1},
+                        {},
+                        {},
+                        {"4":-1},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+            	}
+            },
+            {
+                "reels":[        
+					[120,123,123,120,121,121,121,121],
+                    [121,121,121,121,123,123,123,123],
+                    [97,123,123,123,123,123,123,123]
+				],
+				"selfData":{
+					"userMulit" : [
+						15,0,0,0,0,0,0,0
+					],
+                    "setMultipleReel" : [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {}
+                    ]
+            	}
+            }
+        ],
+        "triggerPlayer": {
+            "head": "23",
+            "facebookId" : "",
+            "nickName": "Guest3890",
+            "chairId": 0,
+            "udid": "ffffffa45e60fffffff24623:SlotNewCashLink"
+        },
+        "sets": [
+            {
+                "head": "23",
+                "facebookId" : "",
+                "nickName": "Guest3890",
+                "chairId": 0,
+                "udid": "ffffffa45e60fffffff24623:SlotNewCashLink",
+                "coins" : 12000000,
+                "winCoins" : 4800000000,
+                "winMultiple" : 400
+            }
+        ],
+        "userScore": {
+            "ffffffa45e60fffffff24623:SlotNewCashLink": 6000
+        },
+        "winnerChairId": 0,
+        "winnerMultiple": 250
+    },
+    "roomId": "LuckyRacing-1630058191735-13262"
+}

@@ -1,0 +1,201 @@
+{
+    "bonus": {
+        "bsWinCoins": 0,
+        "bsWinCoinsV2": "0",
+        "extra": {}
+    },
+    "prevReel": [
+        11,
+        11,
+        0,
+        7,
+        8
+    ],
+    "cleanJillion": false,
+    "betV2": "4800000000000",
+    "jackpotCoins": {},
+    "freespin": {
+        "freeSpinsLeftCount": 0,
+        "fsWinCoins": 79680000000000,
+        "freeSpinNewCount": 0,
+        "fsWinCoinsV2": "79680000000000",
+        "freeSpinsTotalCount": 0,
+        "newTrigger": false,
+        "freeSpinsFirstTotalCount": 0,
+        "fsMultiplier": 0,
+        "extra": {
+            "initReel": {
+                "nextReel": [
+                    8,
+                    10,
+                    10,
+                    4,
+                    10
+                ],
+                "prevReel": [
+                    11,
+                    11,
+                    9,
+                    9,
+                    6
+                ],
+                "reels": [
+                    [
+                        10,
+                        90,
+                        90,
+                        90,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        11,
+                        9,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        8,
+                        11,
+                        92
+                    ],
+                    [
+                        9,
+                        11,
+                        7,
+                        6,
+                        11
+                    ]
+                ]
+            },
+            "freemulit": 25,
+            "getgrand": 0
+        },
+        "fsModeId": 0
+    },
+    "gems": 0,
+    "action": "FREESPIN",
+    "nextReel": [
+        10,
+        10,
+        6,
+        8,
+        0
+    ],
+    "reels": [
+        [
+            9,
+            11,
+            10,
+            7,
+            9
+        ],
+        [
+            92,
+            9,
+            10,
+            9,
+            9
+        ],
+        [
+            6,
+            10,
+            4,
+            10,
+            10
+        ],
+        [
+            6,
+            92,
+            4,
+            10,
+            7
+        ]
+    ],
+    "features": [
+        0
+    ],
+    "winAmountValue": "12000000000000",
+    "respin": {
+        "resWinCoinsV2": "0",
+        "reSpinsTotalCount": 0,
+        "extra": {},
+        "reSpinStoredIcons": {},
+        "reSpinCurCount": 0,
+        "resWinCoins": 0
+    },
+    "payLineCount": 50,
+    "jackpotMultiple": {},
+    "selfData": {
+        "baseReels": {
+            "nextReel": [
+                8,
+                10,
+                10,
+                4,
+                10
+            ],
+            "prevReel": [
+                11,
+                11,
+                9,
+                9,
+                6
+            ],
+            "reels": [
+                [
+                    10,
+                    90,
+                    90,
+                    90,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    8,
+                    11,
+                    92
+                ],
+                [
+                    9,
+                    11,
+                    7,
+                    6,
+                    11
+                ]
+            ]
+        }
+    },
+    "avgBet": 0,
+    "winAmount": 12000000000000,
+    "jackpotCoinsV2": {},
+    "storedIconsV2": {},
+    "gemsExtra": {},
+    "lines": [
+        {
+            "amount": 480000000000,
+            "icons": [
+                5,
+                11,
+                7,
+                13
+            ],
+            "id": 12,
+            "type": 10,
+            "amountV2": "480000000000",
+            "multiple": 5
+        }
+    ],
+    "jackpots": {},
+    "bet": 96000000000
+}

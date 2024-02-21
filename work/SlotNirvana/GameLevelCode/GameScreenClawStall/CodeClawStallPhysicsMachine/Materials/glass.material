@@ -1,0 +1,26 @@
+/* 
+	针对不同纹理的模型设置 outline 材质
+	tm
+*/
+material glass
+{
+	//-- 默认材质 --
+	technique normal
+	{
+		pass 0
+		{
+			renderState
+			{
+				cullFace = true
+				cullFaceSide = BACK
+				depthTest = false
+			}
+
+			shader
+			{
+				vertexShader	= CodeClawStallPhysicsMachine/Shaders3D/3d_position_tex.vert
+				fragmentShader	= CodeClawStallPhysicsMachine/Shaders3D/3d_color_tex.frag
+			}
+		}
+	}
+}

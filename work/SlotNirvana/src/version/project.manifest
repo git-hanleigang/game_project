@@ -1,0 +1,16 @@
+{
+    "packageUrl":"http://192.168.1.150/SlotNewRes/SlotCashLink_Test/version_android_prelaunch/",
+    "remoteVersionUrl":"http://192.168.1.150/SlotNewRes/SlotCashLink_Test/version_android_prelaunch/version.manifest",
+    "remoteManifestUrl":"http://192.168.1.150/SlotNewRes/SlotCashLink_Test/version_android_prelaunch/project.manifest",
+    "version":"1.20190111.01",
+    "engineVersion":"Cocos2d-lua v3.3 Final",
+    "assets":{
+        "Dynamic.json":{
+            "md5":"e6aed0272011da3039ccc1008040cbcb"
+        },
+        "V212.zip":{
+            "md5":"e6aed0272011da3039ccc1008040cbcb",
+            "compressed":true
+        }
+    }
+}

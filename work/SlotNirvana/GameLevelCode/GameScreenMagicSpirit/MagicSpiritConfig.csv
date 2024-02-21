@@ -1,0 +1,126 @@
+reel_cloumn1,5;1;1;6;1;0;4;6;95;95;1;6;5;0;6;0;5;6;92;92;92;92;92;92;92;92;92;4;2;0;0;5;95;95;0;5;4;1;4;92;1;6;4;4;4;1;1;0;3;1;95;95;5;5;5;2;4;4;5;6;0;4;5;4;3;95;95;3;0;1;4;6;6;2;3;5;92;4;5;6;0;0;4;0;2;3;0;6;1;95;95;6;4;2;6;6;5;4;6;6;6;0;5;1;1;0;3;4;5;
+reel_cloumn2,5;5;0;6;6;0;1;5;94;95;6;2;5;0;0;6;3;92;92;92;92;92;92;92;92;92;6;0;3;92;2;2;3;3;2;6;94;95;3;6;3;3;92;6;6;6;2;4;5;2;3;94;95;6;3;5;4;3;4;6;2;5;0;3;0;6;94;95;4;3;1;0;6;2;0;96;96;5;0;6;5;3;0;6;0;4;6;6;0;5;3;6;1;6;0;96;96;2;5;5;0;2;6;6;5;1;0;0;5;
+reel_cloumn3,6;0;2;4;6;94;94;6;3;3;4;2;92;0;4;6;6;0;2;5;2;94;94;2;1;3;4;4;4;2;4;92;2;3;6;94;94;3;4;2;3;0;4;5;3;92;92;92;92;92;92;92;92;92;1;3;3;6;6;5;1;3;2;2;94;94;5;4;2;1;4;6;0;4;2;4;3;4;6;94;94;3;6;2;1;6;1;2;3;2;3;2;3;4;4;94;94;3;1;2;3;4;2;6;3;2;6;2;6;
+reel_cloumn4,0;5;1;0;4;5;4;3;5;94;94;2;4;2;3;3;3;2;95;96;3;1;3;0;5;6;2;2;6;5;5;4;5;92;92;92;92;92;92;92;92;92;92;1;2;3;4;2;5;3;3;94;94;1;5;4;4;5;2;6;0;4;0;94;94;0;3;6;2;0;6;3;4;92;6;2;1;2;5;2;95;96;4;2;1;4;6;3;5;4;4;2;1;1;4;95;96;0;3;6;6;4;1;0;4;3;5;4;1;
+reel_cloumn5,0;6;5;4;96;96;3;4;0;2;3;96;96;2;5;4;3;1;2;0;5;6;2;2;5;4;96;96;3;4;4;1;1;2;92;3;2;4;6;1;2;1;4;4;96;3;4;2;6;3;0;2;2;0;96;96;3;0;5;4;6;6;3;92;5;6;1;96;2;5;4;1;3;3;96;4;1;6;2;5;4;3;3;1;1;4;6;96;2;5;5;0;6;0;6;4;3;4;3;1;92;92;92;92;92;92;92;92;92;
+
+freespinModeId_0_1,5;1;1;6;1;0;4;6;95;95;1;6;5;0;6;0;5;6;4;2;0;0;5;95;95;0;5;4;1;4;92;1;6;4;4;4;1;1;0;3;1;95;95;5;5;5;2;4;4;5;6;0;4;5;4;3;95;95;3;0;1;4;6;6;2;3;5;92;4;5;6;0;0;4;0;2;3;0;6;1;95;95;6;4;2;6;6;5;4;6;6;6;0;5;1;1;0;3;4;5,
+freespinModeId_0_2,5;5;0;6;6;0;1;5;94;95;6;2;5;0;0;6;3;6;0;3;92;2;2;3;3;2;6;94;95;3;6;3;3;92;6;6;6;2;4;5;2;3;94;95;6;3;5;4;3;4;6;2;5;0;3;0;6;94;95;4;3;1;0;6;2;0;96;96;5;0;6;5;3;0;6;0;4;6;6;0;5;3;6;1;6;0;96;96;2;5;5;0;2;6;6;5;1;0;0;5,
+freespinModeId_0_3,6;0;2;4;6;94;94;6;3;3;4;2;92;0;4;6;6;0;2;5;2;94;94;2;1;3;4;4;4;2;4;92;2;3;6;94;94;3;4;2;3;0;4;5;3;1;3;3;6;6;5;1;3;2;2;94;94;5;4;2;1;4;6;0;4;2;4;3;4;6;94;94;3;6;2;1;6;1;2;3;2;3;2;3;4;4;94;94;3;1;2;3;4;2;6;3;2;6;2;6,
+freespinModeId_0_4,0;5;1;0;4;5;4;3;5;94;94;2;4;2;3;3;3;2;95;96;3;1;3;0;5;6;2;2;6;5;5;4;5;92;1;2;3;4;2;5;3;3;94;94;1;5;4;4;5;2;6;0;4;0;94;94;0;3;6;2;0;6;3;4;92;6;2;1;2;5;2;95;96;4;2;1;4;6;3;5;4;4;2;1;1;4;95;96;0;3;6;6;4;1;0;4;3;5;4;1,
+freespinModeId_0_5,0;6;5;4;96;96;3;4;0;2;3;96;96;2;5;4;3;1;2;0;5;6;2;2;5;4;96;96;3;4;4;1;1;2;92;3;2;4;6;1;2;1;4;4;96;3;4;2;6;3;0;2;2;0;96;96;3;0;5;4;6;6;3;92;5;6;1;96;2;5;4;1;3;3;96;4;1;6;2;5;4;3;3;1;1;4;6;96;2;5;5;0;6;0;6;4;3;4;3;1,
+
+
+Base_wild_pro,1-90;2-10;3-0;5-0,
+Base_score9_pro,1-80;2-10;3-0;5-10,
+Base_score8_pro,1-80;2-10;3-0;5-10,
+Base_score7_pro,1-80;2-10;3-10;5-0,
+Base_score6_pro,1-80;2-10;3-0;5-10,
+Base_score5_pro,1-80;2-10;3-10;5-0,
+Base_score4_pro,1-100;2-0;3-0;5-0,
+Base_score3_pro,1-100;2-0;3-0;5-0,
+
+
+Classic_1_wild_pro,1-100;2-0;3-0;5-0,
+Classic_1_seven3_pro,1-90 ;2-5;3-0;5-5,
+Classic_1_seven2_pro,1-90 ;2-5;3-0;5-5,
+Classic_1_seven1_pro,1-90 ;2-5;3-0;5-0,
+Classic_1_bar2_pro,1-90 ;2-5;3-0;5-5,
+Classic_1_bar1_pro,1-90 ;2-5;3-5;5-0,
+
+Classic_2_wild_pro,1-100;2-0;3-0;5-0,
+Classic_2_seven3_pro,1-90 ;2-5;3-0;5-5,
+Classic_2_seven2_pro,1-90 ;2-5;3-0;5-5,
+Classic_2_seven1_pro,1-90 ;2-5;3-5;5-0,
+Classic_2_bar2_pro,1-90 ;2-5;3-0;5-5,
+Classic_2_bar1_pro,1-90 ;2-5;3-5;5-0,
+
+Classic_3_wild1_pro,1-100;2-0;3-0;5-0,
+Classic_3_wild2_pro,1-100;2-0;3-0;5-0,
+Classic_3_wild3_pro,1-100;2-0;3-0;5-0,
+Classic_3_seven3_pro,1-95 ;2-0;3-0;5-5,
+Classic_3_seven2_pro,1-95 ;2-0;3-5;5-0,
+Classic_3_seven1_pro,1-95 ;2-5;3-0;5-0,
+Classic_3_bar2_pro,1-96 ;2-5;3-0;5-5,
+Classic_3_bar1_pro,1-96 ;2-0;3-5;5-5,
+
+
+Socre_MagicSpirit_3,#Symbol/MagicSpirit_symbol_H7.png;0;0;0.5,
+Socre_MagicSpirit_4,#Symbol/MagicSpirit_symbol_H6.png;0;0;0.5,
+Socre_MagicSpirit_5,#Symbol/MagicSpirit_symbol_H5.png;0;0;0.5,
+Socre_MagicSpirit_6,#Symbol/MagicSpirit_symbol_H4.png;0;0;0.5,
+Socre_MagicSpirit_7,#Symbol/MagicSpirit_symbol_H3.png;0;0;0.5,
+Socre_MagicSpirit_8,#Symbol/MagicSpirit_symbol_H2.png;0;0;0.5,
+Socre_MagicSpirit_9,#Symbol/MagicSpirit_symbol_H1.png;0;0;0.5,
+
+Socre_MagicSpirit_Wild,#Symbol/MagicSpirit_symbol_WILD.png;0;0;0.5,
+Socre_MagicSpirit_Wheel_1,#Symbol/MagicSpirit_symbol_ZL3.png;0;0;0.5,
+Socre_MagicSpirit_Wheel_2,#Symbol/MagicSpirit_symbol_ZL2.png;0;0;0.5,
+Socre_MagicSpirit_Wheel_3,#Symbol/MagicSpirit_symbol_ZL.png;0;0;0.5,
+Socre_MagicSpirit_Bonus,#Symbol/MagicSpirit_symbol_TX.png;0;0;0.5,
+
+Socre_MagicSpirit_Classic_jackpot,#Symbol/MagicSpirit_zhuanlun_symbol_BAOSHI.png;0;0;0.5,
+Socre_MagicSpirit_Classical_2bar,#Symbol/MagicSpirit_zhuanlun_symbol_BAR_2.png;0;0;0.5,
+Socre_MagicSpirit_Classical_bar,#Symbol/MagicSpirit_zhuanlun_symbol_BAR_1.png;0;0;0.5,
+
+
+Socre_MagicSpirit_Classical1_7,#Symbol/MagicSpirit_LVlun_symbol_7_1.png;0;0;0.5,
+Socre_MagicSpirit_Classical1_77,#Symbol/MagicSpirit_LVlun_symbol_7_2.png;0;0;0.5,
+Socre_MagicSpirit_Classical1_777,#Symbol/MagicSpirit_LVlun_symbol_7_3.png;0;0;0.5,
+Socre_MagicSpirit_Classical1_wild,#Symbol/MagicSpirit_LVlun_symbol_BRIGHT.png;0;0;0.5,
+
+Socre_MagicSpirit_Classical2_7,#Symbol/MagicSpirit_honglun_symbol_7.png;0;0;0.5,
+Socre_MagicSpirit_Classical2_77,#Symbol/MagicSpirit_honglun_symbol_7_2.png;0;0;0.5,
+Socre_MagicSpirit_Classical2_777,#Symbol/MagicSpirit_honglun_symbol_7_3.png;0;0;0.5,
+Socre_MagicSpirit_Classical2_wild,#Symbol/MagicSpirit_honglun_symbol_SHINING.png;0;0;0.5,
+
+Socre_MagicSpirit_Classical3_7,#Symbol/MagicSpirit_HUANGlun_symbol_7_1.png;0;0;0.5,
+Socre_MagicSpirit_Classical3_77,#Symbol/MagicSpirit_HUANGlun_symbol_7_2.png;0;0;0.5,
+Socre_MagicSpirit_Classical3_777,#Symbol/MagicSpirit_HUANGlun_symbol_7_3.png;0;0;0.5,
+Socre_MagicSpirit_Classical3_wild1,#Symbol/MagicSpirit_HUANGlun_symbol_WILD_1.png;0;0;0.5,
+Socre_MagicSpirit_Classical3_wild2,#Symbol/MagicSpirit_HUANGlun_symbol_WILD_2.png;0;0;0.5,
+Socre_MagicSpirit_Classical3_wild3,#Symbol/MagicSpirit_HUANGlun_symbol_WILD_3.png;0;0;0.5,
+
+SpineSymbol_0,idleframe-false
+SpineSymbol_1,idleframe-false
+SpineSymbol_2,idleframe-false
+SpineSymbol_3,idleframe-false
+SpineSymbol_4,idleframe-false
+SpineSymbol_91,idleframe-false
+SpineSymbol_92,idleframe-false
+
+
+isAllLineType,0
+lineCount,30
+columnNum,5
+rowNum,3
+reelWidth,768
+reelHeight,1080
+bInclScatter,1
+bPlayScatterAction,1
+bInclBonus,1
+reelRunDatas,15;18;21;24;27
+reelEffectRes,WinFrameMagicSpirit_run
+reelBgEffectRes,WinFrameMagicSpirit_run_bg
+quickStopDelayTime,0
+reelMoveSpeed,1650
+reelResTime,0.15
+reelDownTime,0.1
+reelResDis,18
+reelBeginJumpTime,0.2
+reelBeginJumpHigh,20
+musicBg,MagicSpiritSounds/music_MagicSpirit_base.mp3
+musicFsBg,MagicSpiritSounds/music_MagicSpirit_base.mp3
+musicReSpinBg,MagicSpiritSounds/music_MagicSpirit_respin.mp3
+soundBonusTip,MagicSpiritSounds/music_MagicSpirit_bonus_tip.mp3
+soundReelDown,MagicSpiritSounds/sound_MagicSpirit_reel_stop.mp3
+commonSoundReelDown,Sounds/CommonReelDown_3.mp3
+reelRunSound,MagicSpiritSounds/music_MagicSpirit_Quick_Run.mp3
+randomSmallSymbolNum,7
+showScoreImage,1  
+showLinesTime,2
+
+
+
+fsReelMoveSpeed,1815
+fsReelRunDatas,16;19;22;25;28

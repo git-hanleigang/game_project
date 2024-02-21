@@ -1,0 +1,27 @@
+-- -- 解析Link卡请求link游戏数据
+-- -- 数据结构 CARDLINKPLAYRESPONSE
+-- --[[--
+--       ("index"   , "int32"   ) --转的结果位置从0开始
+--       ("type"    , "string"  ) --奖励类型
+--       ("coins"   , "int64"   ) --金币数量
+--       ("club"    , "int64"   ) --club点数
+--       ("cardInfo", "struct" ,  CARDDROPINFO  ) --获得新卡数据
+--       ("icon"    , "string"  ) --奖励图标
+--       ("leftLinkCount","int32") --剩余转动次数
+-- ]]
+-- local ParseNetDataBase = require("GameModule.Card.data.ParseNetDataBase")
+-- local ParseCardLinkPlayData = class("ParseCardLinkPlayData", ParseNetDataBase)
+-- function ParseCardLinkPlayData:ctor()
+-- end
+-- function ParseCardLinkPlayData:parseData(data)
+--       local temp = {}
+--       temp.index = data.index
+--       temp.type = data.type
+--       temp.coins = tonumber(data.coins)
+--       temp.club = data.club
+--       temp.cardInfo = self:parseDropInfo(data.cardInfo)
+--       temp.icon = data.icon
+--       temp.leftLinkCount = data.leftLinkCount
+--       return temp
+-- end
+-- return  ParseCardLinkPlayData

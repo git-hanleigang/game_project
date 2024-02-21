@@ -1,0 +1,67 @@
+-- local ParseNetDataBase = require("GameModule.Card.data.ParseNetDataBase")
+-- local ParseCardSpecialGame = class("ParseCardSpecialGame", ParseNetDataBase)
+-- function ParseCardSpecialGame:ctor()
+-- end
+-- -- message CardSpecialGame {
+--     -- repeated CardSpecialGameIcon icons = 1;
+--     -- optional int64 coolDown = 2; //冷却剩余时间，秒
+--     -- optional int32 status = 3; //状态
+--     -- optional int32 spinTimes = 4; //spin次数
+--     -- optional int32 purchaseTimes = 5; //付费次数
+--     -- optional int32 spinPosition = 6; //这次spin到的位置
+--     -- repeated int32 needCardCloverCounts = 7; //购买次数对应的四叶草数量
+--     -- optional int64 cardClover = 8; //道具四叶草数量
+-- --   }
+-- function ParseCardSpecialGame:parseData(data)
+--     --CardSpecialGameIcon
+--     -- optional int32 id = 1; //id
+--     -- optional string type = 2; //类型
+--     -- optional bool pick = 3; //是否被选中
+--     -- optional int64 coins = 4; //金币数量
+--     -- repeated ShopItem rewards = 5; //物品奖励
+--     self.icons = {}
+--     self.selectList = {}
+--     self.selectCoins = 0
+--     local pickStr = ""
+--     for i=1,#data.icons do
+--         local cellData = data.icons[i]
+--         local iocn = {}
+--         iocn.id = cellData.id
+--         iocn.type = cellData.type
+--         iocn.pick = cellData.pick
+--         iocn.coins = cellData.coins
+--         iocn.rewards = self:parseShopItem(cellData.rewards)
+--         -- pickStr = pickStr.."\n"..i.."-------"..tostring(iocn.pick)
+--         self.icons[#self.icons+1] = iocn
+--         if iocn.pick then
+--             if cellData.type == "COINS" then
+--                 self.selectCoins = self.selectCoins + tonumber(iocn.coins)
+--             elseif cellData.type == "NONE" then
+--             else
+--                 local count = 1
+--                 if iocn.rewards and #iocn.rewards > 0 then
+--                     count = iocn.rewards[1].p_num
+--                 end
+--                 if self.selectList[cellData.type] then
+--                     self.selectList[cellData.type] = self.selectList[cellData.type] + count
+--                 else
+--                     self.selectList[cellData.type] = count
+--                 end
+--             end
+--         end
+--     end
+--     -- print(pickStr)
+--     self.coolDown = data.coolDown
+--     self.status = data.status
+--     self.spinTimes = data.spinTimes
+--     self.purchaseTimes = data.purchaseTimes
+--     self.spinPosition = data.spinPosition
+--     -- print("spinPos"..data.spinPosition)
+--     self.needCardCloverCounts = {}
+--     for i=1, (#data.needCardCloverCounts or {}) do
+--         self.needCardCloverCounts[#self.needCardCloverCounts+1] = data.needCardCloverCounts[i]
+--     end
+--     self.cardClover = data.cardClover
+--     return self
+-- end
+-- return  ParseCardSpecialGame

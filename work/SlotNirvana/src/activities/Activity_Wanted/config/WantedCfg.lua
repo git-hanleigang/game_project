@@ -1,0 +1,4 @@
+
+GD.WantedCfg = {}
+
+ViewEventType.WANTED_REWARD_COLLECT = "WANTED_REWARD_COLLECT" -- 领奖

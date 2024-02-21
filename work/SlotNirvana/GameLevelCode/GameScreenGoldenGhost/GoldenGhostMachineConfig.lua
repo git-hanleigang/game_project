@@ -1,0 +1,58 @@
+-- 关卡的一些常量配置
+-- 系统那边有些活动经常用这种配置，之后有改动的话 这样看配置应该更清晰一些，尝试一下
+local GoldenGhostMachineConfig = {}
+
+
+--背景音乐
+GoldenGhostMachineConfig.Music_enterLevel = "GoldenGhostSounds/music_GoldenGhost_enterLevel.mp3"
+--音效
+GoldenGhostMachineConfig.Sound_WinCoin_Base = "GoldenGhostSounds/sound_GoldenGhost_baseWin_%d.mp3"
+GoldenGhostMachineConfig.Sound_WinCoin_Free = "GoldenGhostSounds/sound_GoldenGhost_freeWin_%d.mp3"
+GoldenGhostMachineConfig.Sound_WinCoin_Witch = "GoldenGhostSounds/sound_GoldenGhost_witchWin_%d.mp3"
+
+
+GoldenGhostMachineConfig.Sound_Buling_Bonus = "GoldenGhostSounds/sound_GoldenGhost_buling_bonus.mp3"
+GoldenGhostMachineConfig.Sound_Buling_Wild = "GoldenGhostSounds/sound_GoldenGhost_buling_wild.mp3"
+GoldenGhostMachineConfig.Sound_Buling_AddSpinTimes = "GoldenGhostSounds/sound_GoldenGhost_buling_addSpinTimes.mp3"
+
+GoldenGhostMachineConfig.Sound_Buling_BonusYellow_One = "GoldenGhostSounds/sound_GoldenGhost_buling_bonusYellow_1.mp3"
+GoldenGhostMachineConfig.Sound_Buling_BonusYellow_More = "GoldenGhostSounds/sound_GoldenGhost_buling_bonusYellow_2.mp3"
+GoldenGhostMachineConfig.Sound_Buling_BonusGreen_One = "GoldenGhostSounds/sound_GoldenGhost_buling_bonusGreen_1.mp3"
+GoldenGhostMachineConfig.Sound_Buling_BonusGreen_More = "GoldenGhostSounds/sound_GoldenGhost_buling_bonusGreen_2.mp3"
+
+GoldenGhostMachineConfig.Sound_Bonus_Start = "GoldenGhostSounds/sound_GoldenGhost_bonus_start.mp3"
+GoldenGhostMachineConfig.Sound_Bonus_Collect_Start = "GoldenGhostSounds/sound_GoldenGhost_bonus_collect_start.mp3"
+GoldenGhostMachineConfig.Sound_Bonus_Collect_End = "GoldenGhostSounds/sound_GoldenGhost_bonus_collect_end.mp3"
+GoldenGhostMachineConfig.Sound_BonusGreen_Collect_Start = "GoldenGhostSounds/sound_GoldenGhost_bonusGreen_collect_start.mp3"
+GoldenGhostMachineConfig.Sound_BonusGreen_Collect_End = "GoldenGhostSounds/sound_GoldenGhost_bonusGreen_collect_end.mp3"
+
+GoldenGhostMachineConfig.Sound_Bonus_EachWins_Down = "GoldenGhostSounds/sound_GoldenGhost_eachWinsDown.mp3"
+GoldenGhostMachineConfig.Sound_Bonus_Select_Start = "GoldenGhostSounds/sound_GoldenGhost_select_start.mp3"
+GoldenGhostMachineConfig.Sound_Bonus_Select_Click = "GoldenGhostSounds/sound_GoldenGhost_select_click.mp3"
+
+GoldenGhostMachineConfig.Sound_Wild_Collect = "GoldenGhostSounds/sound_GoldenGhost_wild_collect.mp3"
+
+GoldenGhostMachineConfig.Sound_Guochang_BaseToRespin = "GoldenGhostSounds/sound_GoldenGhost_guochang_baseToRespin.mp3"
+GoldenGhostMachineConfig.Sound_Guochang_RespinToBase = "GoldenGhostSounds/sound_GoldenGhost_guochang_respinToBase.mp3"
+
+GoldenGhostMachineConfig.Sound_AddSpinTimes_Collect_Start = "GoldenGhostSounds/sound_GoldenGhost_addSpinTimes_collect_start.mp3"
+GoldenGhostMachineConfig.Sound_AddSpinTimes_Collect_End = "GoldenGhostSounds/sound_GoldenGhost_addSpinTimes_collect_end.mp3"
+
+GoldenGhostMachineConfig.Sound_Notice = "GoldenGhostSounds/sound_GoldenGhost_notice.mp3"
+
+GoldenGhostMachineConfig.Sound_Respin_Wincoin = "GoldenGhostSounds/sound_GoldenGhost_reSpin_winCoin.mp3"
+GoldenGhostMachineConfig.Sound_Respin_OverView = "GoldenGhostSounds/sound_GoldenGhost_reSpin_overView.mp3"
+
+GoldenGhostMachineConfig.Sound_Free_More = "GoldenGhostSounds/sound_GoldenGhost_free_more.mp3"
+GoldenGhostMachineConfig.Sound_Free_Over = "GoldenGhostSounds/sound_GoldenGhost_free_over.mp3"
+
+GoldenGhostMachineConfig.Sound_BonusPick_Start = "GoldenGhostSounds/sound_GoldenGhost_bonusPick_start.mp3"
+GoldenGhostMachineConfig.Sound_BonusPick_OpenItem = "GoldenGhostSounds/sound_GoldenGhost_bonusPick_openItem.mp3"
+GoldenGhostMachineConfig.Sound_BonusPick_OpenItem_Gold = "GoldenGhostSounds/sound_GoldenGhost_bonusPick_openItem_gold.mp3"
+GoldenGhostMachineConfig.Sound_BonusPick_OpenItem_Gold_FlyOther = "GoldenGhostSounds/sound_GoldenGhost_bonusPick_openItem_gold_flyOther.mp3"
+GoldenGhostMachineConfig.Sound_BonusPick_JackPot = "GoldenGhostSounds/sound_GoldenGhost_bonusPick_jackpot.mp3"
+GoldenGhostMachineConfig.Sound_BonusPick_Over = "GoldenGhostSounds/sound_GoldenGhost_bonusPick_over.mp3"
+
+GoldenGhostMachineConfig.Sound_Reel_Stop = "Sounds/CommonReelDown_3.mp3"
+
+return GoldenGhostMachineConfig

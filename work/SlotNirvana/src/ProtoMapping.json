@@ -1,0 +1,10 @@
+{
+  "1001": "ChatProto_pb.AuthReceive",
+  "1002": "ChatProto_pb.SyncReceive",
+  "1003": "ChatBaseProto_pb.Response",
+  "1004": "ChatBaseProto_pb.Response",
+  "1005": "ChatBaseProto_pb.Response",
+  "1006": "ChatProto_pb.Notice",
+  "1007": "ChatBaseProto_pb.Response",
+  "-1": "ChatProto_pb.Notice"
+}

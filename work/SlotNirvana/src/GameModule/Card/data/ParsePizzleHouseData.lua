@@ -1,0 +1,11 @@
+-- -- 解析集卡小游戏
+-- -- 数据结构
+-- local ParseNetDataBase = require("GameModule.Card.data.ParseNetDataBase")
+-- local ParsePizzleHouseData = class("ParsePizzleHouseData", ParseNetDataBase)
+-- function ParsePizzleHouseData:ctor()
+-- end
+-- function ParsePizzleHouseData:parseData(data)
+--     local temp = {}
+--     return temp
+-- end
+-- return  ParsePizzleHouseData

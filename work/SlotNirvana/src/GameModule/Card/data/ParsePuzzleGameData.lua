@@ -1,0 +1,126 @@
+-- local ParseNetDataBase = require("GameModule.Card.data.ParseNetDataBase")
+-- local ParsePuzzleGameData = class("ParsePuzzleGameData", ParseNetDataBase)
+-- function ParsePuzzleGameData:ctor()
+-- end
+-- function ParsePuzzleGameData:parseBase(params, netData)
+--     local temp = {}
+--     netData = netData or {}
+--     if params.stringKey then
+--         for i=1,#params.stringKey do
+--             local key = params.stringKey[i]
+--             if netData[key] and netData[key] ~= "" then
+--                 temp[key] = netData[key]
+--             end
+--         end
+--     end
+--     if params.numberKey then
+--         for i=1,#params.numberKey do
+--             local key = params.numberKey[i]
+--             temp[key] = netData[key]
+--         end
+--     end
+--     if params.boolKey then
+--         for i=1,#params.boolKey do
+--             local key = params.boolKey[i]
+--             temp[key] = netData[key]
+--         end
+--     end
+--     if params.tonumberKey then
+--         for i=1,#params.tonumberKey do
+--             local key = params.tonumberKey[i]
+--             if netData[key] ~= nil then
+--                 temp[key] = tonumber(netData[key])
+--             end
+--         end
+--     end
+--     if params.listKey then
+--         for i=1,#params.listKey do
+--             local key = params.listKey[i][1]
+--             local func = params.listKey[i][2]
+--             temp[key] = {}
+--             if netData[key] ~= nil and #netData[key] > 0 then
+--                 for j=1,#netData[key] do
+--                     temp[key][j] = func(netData[key][j])
+--                 end
+--             end
+--         end
+--     end
+--     return temp
+-- end
+-- -- message CardVegasTornado {
+-- --     optional int32 pickLeft = 1; //游戏剩余次数
+-- --     optional int64 cardRuby = 2; //道具红宝石数量
+-- --     optional int64 coolDown = 3; //冷却剩余时间，秒
+-- --     optional int32 purchaseTimes = 4; //付费次数
+-- --     optional int32 purchasePicks = 5; //付费获得游戏次数
+-- --     optional int32 purchasePicksLimit = 6; //付费获得游戏次数上限
+-- --     optional int32 needCardRuby = 7; //购买消耗红宝石数量
+-- --     repeated CardVegasTornadoBox box = 8;   //礼盒数据
+-- --     repeated CardVegasTornadoPuzzle puzzle = 9;   //拼图数据
+-- --     repeated CardVegasTornadoReward reward = 10;  //礼盒奖励数据
+-- --     repeated CardVegasTornadoReward puzzleReward = 11;  //拼图奖励数据
+-- --     repeated CardVegasTornadoBox oldBox = 12;   //旧礼盒数据
+-- --     optional bool changeBox = 13; //Free/Purchase切换标识
+-- --     optional int64 pickByPurchase = 14; //单次付费获得游戏次数
+-- --   }
+-- function ParsePuzzleGameData:parseData(netData)
+--     local params = {}
+--     params.numberKey = {"pickLeft", "purchaseTimes", "purchasePicks", "purchasePicksLimit", "needCardRuby"}
+--     params.tonumberKey = {"cardRuby", "coolDown", "maxCoins", "pickByPurchase"}
+--     params.boolKey = {"changeBox", "hasPurchaseBox"}
+--     params.listKey = {
+--         {"box", handler(self, self.parseBox)},
+--         {"oldBox", handler(self, self.parseBox)},
+--         {"puzzle", handler(self, self.parsePuzzle)},
+--         {"reward", handler(self, self.parseReward)},
+--         {"puzzleReward", handler(self, self.parseReward)},
+--     }
+--     return self:parseBase(params, netData)
+-- end
+-- -- message CardVegasTornadoBox {
+-- --     optional int32 rewardId = 1; //id
+-- --     optional string type = 2; //类型
+-- --     optional bool pick = 3; //是否被选中
+-- --     optional int64 coins = 4; //金币数量
+-- --     repeated ShopItem rewards = 5; //物品奖励
+-- --     optional bool collect = 6; //是否被收集
+-- --     optional string status = 7; //状态
+-- --     optional int32 position = 8; //位置
+-- --   }
+-- function ParsePuzzleGameData:parseBox(netData)
+--     local params = {}
+--     params.stringKey = {"type", "status"}
+--     params.numberKey = {"rewardId", "position"}
+--     params.boolKey = {"pick", "collect"}
+--     params.tonumberKey = {"coins"}
+--     params.listKey = {{"rewards", handler(self, self.parseShopReward)}}
+--     return self:parseBase(params, netData)
+-- end
+-- -- message CardVegasTornadoReward {
+-- --     optional int64 coins = 1; //金币数量
+-- --     repeated CardDropInfo cardDrops = 2; //获得新卡数据
+-- --     repeated ShopItem rewards = 3; //其他奖励物品
+-- --   }
+-- function ParsePuzzleGameData:parseReward(netData)
+--     local params = {}
+--     params.tonumberKey = {"coins"}
+--     params.listKey = {
+--         {"cardDrops", handler(self, self.parseDropInfo)},
+--         {"rewards", handler(self, self.parseShopReward)}
+--     }
+--     return self:parseBase(params, netData)
+-- end
+-- -- message CardVegasTornadoPuzzle {
+-- --     optional string type = 1; //类型
+-- --     optional int64 count = 2; //数量
+-- --     optional int64 coins = 3; //金币数
+-- --     repeated ShopItem rewards = 4; //物品奖励
+-- --   }
+-- function ParsePuzzleGameData:parsePuzzle(netData)
+--     local params = {}
+--     params.stringKey = {"type"}
+--     params.tonumberKey = {"coins", "count"}
+--     params.listKey = {{"rewards", handler(self, self.parseShopReward)}}
+--     return self:parseBase(params, netData)
+-- end
+-- return ParsePuzzleGameData
